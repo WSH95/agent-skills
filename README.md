@@ -17,26 +17,21 @@ npx skills add WSH95/agent-skills@<skill-name>
 
 ## Skills
 
-No skills are published here yet.
-
-Future skill entries should use this format:
-
-- [Skill Name](#skill-name-use-case) - short description of what the
-  skill helps an LLM agent do.
+- [statusline-designer](#statusline-designer-use-case) - design and customize the Claude Code terminal status line through a local web UI.
 
 ### Use Case
 
-#### Skill Name Use Case
+#### statusline-designer Use Case
 
-Describe when a user should invoke the skill, what kind of work it helps
-with, and what an LLM agent should do differently after loading it.
+![statusline-designer demo](https://raw.githubusercontent.com/WSH95/statusline-designer-dev/main/docs/status-bar-composer-demo.gif)
+
+Invoke it whenever a user wants to set up, change, redesign, or add fields to their Claude Code status line (statusline / bottom bar). It opens a local web designer with a live terminal preview, then generates the status-line script and wires it into settings.json.
 
 Example interactions:
 
-- Ask agent to use `<skill-name>` when working on the matching task.
-- Ask agent to follow the skill's workflow before making changes.
-- Ask agent to verify the result using the checks documented by the
-  skill.
+- "design my status line"
+- "show git branch and context % in my status bar"
+- "add the 5-hour usage limit and session cost to my statusline"
 
 ## License
 
