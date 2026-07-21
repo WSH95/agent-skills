@@ -1,0 +1,6 @@
+interface:
+  display_name: "Paper Review (Standalone)"
+  short_description: "Mock peer review with an area-chair meta-review"
+  default_prompt: "Use $paper-review-standalone to mock-review this paper draft before submission."
+policy:
+  allow_implicit_invocation: false
