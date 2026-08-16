@@ -115,7 +115,7 @@ Derived from the Paperforge plugin's `paper-review-panel` skill and its
 reviewer and area-chair personas — install the full plugin from the public
 marketplace (https://github.com/WSH95/agent-plugins/tree/main/paperforge)
 to run the same panel inside a per-paper workspace with stronger
-guarantees: filesystem-enforced reviewer isolation, native Codex reviewer
-agents, a durable evidence base the area chair can rule against,
-deterministic review-round checks, and the revision/rebuttal workflow that
-consumes the verdicts.
+guarantees: filesystem-enforced reviewer isolation, native Claude Code /
+Grok Build project agents and Codex reviewer agents, a durable evidence
+base the area chair can rule against, deterministic review-round checks,
+and the revision/rebuttal workflow that consumes the verdicts.
