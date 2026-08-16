@@ -15,6 +15,11 @@ name:
 npx skills add WSH95/agent-skills@<skill-name>
 ```
 
+Grok Build discovers these skills after `npx skills add` (it scans
+`~/.agents/skills` and `~/.claude/skills`). Run them as
+`/paper-polish-standalone` or `/paper-review-standalone`.
+
+
 ## Skills
 
 - [statusline-designer](#statusline-designer-use-case) - design and customize the Claude Code terminal status line through a local web UI.
